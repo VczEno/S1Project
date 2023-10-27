@@ -74,7 +74,7 @@ h1 {
 }
 
 .banner a {
-    border: none;
+    display: block;
     color: white;
     background-color: #f04c2f;
     border-radius: 5px;
@@ -82,8 +82,10 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-decoration: none;
-    padding: 1em 2em;
-    margin: 4em;
+    padding: 0.5em;
+    width: 10em;
+    margin: 2em auto;
+    
 }
 
 /* info */
@@ -92,6 +94,10 @@ h1 {
     margin: auto;
     margin-top: 3em;
 
+}
+
+.info h3, .step h4 {
+    font-size: 1.2em;
 }
 
 
