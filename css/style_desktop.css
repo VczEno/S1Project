@@ -1,0 +1,258 @@
+/* Generali */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1em;  
+       
+}
+
+.container {
+    margin: auto;
+}
+
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;  
+    line-height: 1.65em; 
+    font-size: 1.2em;
+   text-align: center;
+ 
+   
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3 ;
+    line-height: 1.5em; /*interlinea come da richiesta, ma a me sembra troppo..*/
+    
+}
+
+
+/*Header*/
+
+header {
+    background-color: black;
+    padding: 2em;
+  
+}
+
+header img {
+    height: 3em; 
+    display: block;
+   
+}
+
+/* Main */
+
+.banner {
+    background-color: #25a2c3;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: fit-content;
+    padding: 8em 20em;
+    font-size: 1.1em;
+}
+
+h1 {
+    font-size: 2em ;
+}
+
+.banner a {
+    display: block;
+    color: white;
+    background-color: #f04c2f;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 0.7em 0.2em;
+    width: 10em;
+    margin: 2em auto;
+    
+}
+
+/* info */
+
+.info {
+    margin: 5em auto;
+}
+
+.info h3, .step h4 {
+    font-size: 1.2em;
+}
+
+
+.cerchio {
+    background-image:url(../images/notebook.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 0 auto;
+    
+    
+}
+
+.testi {
+    width: 30em;
+    text-align: left;
+    margin: 3em 3em;
+}
+
+.testi p, .testi h3 {
+    margin: 1em auto;
+
+}
+
+
+
+.cerchio, .testi {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2em 2em;
+}
+
+.citazione {
+    background-color: #e22d0e;
+    color: white;
+    padding: 3em 0.5em 1.5em;
+    margin-top: 3em;
+}
+
+.citazione h2 {
+    color: white;
+    font-size: 1.7em;
+    
+}
+
+/*citazione*/
+
+.citazione {
+    padding: 5em 0;
+    margin: 0;
+}
+
+cite {
+    font-size: 1.6em;
+    font-style: italic;
+    display: block;
+    margin: 1em 0;
+   
+}
+
+.citazione h5 {
+    font-size: 1.4em;
+    margin: 0;
+    
+}
+
+.citazione p {
+    margin:0;
+    font-size: 0.7em;
+}
+
+/*step*/
+
+.step {
+    margin: 6em 0 8em;
+   
+}
+
+.box {
+    display: inline-block;
+    margin: 0 1em;
+    border: 1px solid #dee1e3;
+    width: 20em;
+    height: fit-content;
+    vertical-align: top;
+    padding-bottom: 1em;
+  
+}
+
+/* .box img {
+    display: block;
+    width: 100%;   
+} */
+.box1img, .box2img, .box3img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20em;
+    height: 15em;
+    margin-bottom: 1.5em;
+}
+
+ .box1img {
+    background-image: url(../images/foto1.jpg);
+}
+
+.box2img {
+    background-image: url(../images/foto2.jpg);
+    
+}
+
+.box3img {
+    background-image: url(../images/foto3.jpg);
+    
+}
+
+.box h4 , .box p {
+    margin: 0.8em;
+    font-size: 0.8em;
+}
+
+/* Footer */
+
+footer {
+    background-color: #25a2c3 ;
+    color: #c8e7f0;
+    padding: 2em;
+    text-align: left;
+
+}
+
+.contatti {
+  margin: auto;
+  width: fit-content;
+}
+
+footer h2 {
+    color: white;
+    font-size: 2.8em;
+    text-align: center;
+    margin: 0.5em;
+    
+    
+}
+
+footer a {
+    color: #c8e7f0;
+
+}
+
+footer address {
+    margin-bottom: 2em;
+    display:inline;
+    
+}
+
+footer p {
+    padding: 2em 0;
+    border-top: 1px solid #c8e7f0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+
